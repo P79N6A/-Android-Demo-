@@ -19,12 +19,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven {
-            url "http://cp01-duerosauto-client-maven.epc.baidu.com:8081/nexus/content/repositories/auto/"
-        }
-        maven {
-            url "http://cp01-duerosauto-client-maven.epc.baidu.com:8081/nexus/content/repositories/vr-sdk-debug/"
-        }
     }
 }
 
